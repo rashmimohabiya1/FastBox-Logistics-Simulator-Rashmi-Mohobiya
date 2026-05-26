@@ -14,7 +14,3 @@ Input datasets contained intentional formatting anomalies (e.g., variation betwe
 * **Distance Metric:** Calculated using straight-line Euclidean distance formulas.
 * **State Preservation:** Couriers do not reset to base coordinates after a pickup; their coordinate states dynamically update to the delivery drop point location.
 * **Deterministic Tie-Breaking:** If multiple drivers are equidistant to a warehouse hub, the agent with the lowest alphabetical string index (e.g., `A1` over `A2`) takes operational priority.
-
-## Included Bonus Features
-* **ASCII Route Map Grid Visualizer:** Generates plain-text route orientation visualizations in the terminal interface.
-* **Manually Compiled CSV Export Layer:** Generates a structured `top_performer.csv` document logging peak agent performance stats without third-party libraries.
